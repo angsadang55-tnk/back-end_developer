@@ -1,0 +1,6 @@
+print('hello ja kru Meen')
+print('My name is Angsadang jangkramol')
+print('My nickname is Apple')
+print('No : 13')
+print('My ID : 67319010055')
+print('In my free time I sleep')
