@@ -1,4 +1,8 @@
-import database
-mycursor = database.mydb.cursor() #เก็บการทำงานของmysq)
-mycursor. execute("INSERT INTO subject VALUES ('7', 'Test2')")
-database.mydb.comnit() # ปืนยันการเปลี่ยนแปลงในdb
+import mysql.connector as mysqlcon
+mydb = mysqlcon.connect(
+    host="localhost",
+    user='root',
+    password="1111",
+    database='student'
+    )
+print(mydb)
